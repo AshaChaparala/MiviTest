@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mivi</string>
+    <string name="customer">Customer</string>
+    <string name="subscription">Subscriptions</string>
+    <string name="subscription_id">Subscription Id:</string>
+
+    <string name="data_bal">Data Balance:</string>
+    <string name="expiry">Expiry:</string>
+</resources>

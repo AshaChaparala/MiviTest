@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/d16">
+    <TextView
+        android:id="@+id/header"
+        style="@style/pagetitle"
+     />
+    <ImageView
+        android:id="@+id/imgLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/logout" />
+        <ImageView
+            android:id="@+id/userImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:src="@drawable/defaultuser"/>
+    <TextView
+        android:id="@+id/name"
+      style="@style/header"
+        android:text="@string/app_name"
+        android:layout_below="@id/header"
+        android:layout_toRightOf="@id/userImg"/>
+    <TextView
+        android:id="@+id/mobile"
+        style="@style/title"
+        android:layout_toRightOf="@id/userImg"
+        android:layout_below="@id/name"/>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d2"
+        android:layout_marginTop="@dimen/d10"
+        android:background="@android:color/holo_purple"
+        android:layout_below="@id/userImg"/>
+
+
+    <TextView
+        android:id="@+id/subscription"
+        style="@style/header"
+        android:text="@string/subscription"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/divider"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewSubscriptions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/subscription"
+        android:layout_marginLeft="@dimen/d10" />
+
+
+
+</RelativeLayout>
