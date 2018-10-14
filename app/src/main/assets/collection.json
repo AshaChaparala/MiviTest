@@ -48,10 +48,6 @@
             {
               "type": "subscriptions",
               "id": "0468874507-0"
-            },
-            {
-              "type": "subscriptions",
-              "id": "0468874507-1"
             }
           ]
         }
@@ -83,39 +79,6 @@
           "data": {
             "type": "products",
             "id": "0"
-          }
-        },
-        "downgrade": {
-          "data": null
-        }
-      }
-    },
-    {
-      "type": "subscriptions",
-      "id": "0468874507-1",
-      "attributes": {
-        "included-data-balance": 52400,
-        "included-credit-balance": null,
-        "included-rollover-credit-balance": null,
-        "included-rollover-data-balance": null,
-        "included-international-talk-balance": null,
-        "expiry-date": "2016-11-19",
-        "auto-renewal": true,
-        "primary-subscription": true
-      },
-      "links": {
-        "self": "http://localhost:3000/services/0468874507/subscriptions/0468874507-0"
-      },
-      "relationships": {
-        "service": {
-          "links": {
-            "related": "http://localhost:3000/services/0468874507"
-          }
-        },
-        "product": {
-          "data": {
-            "type": "products",
-            "id": "4000"
           }
         },
         "downgrade": {
